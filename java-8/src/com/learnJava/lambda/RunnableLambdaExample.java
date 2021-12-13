@@ -22,7 +22,11 @@ public class RunnableLambdaExample {
         // ()->{}
         //assigning a lambda to a variable.
 
+
+
         Runnable runnableLambda = () -> {System.out.println("Inside Runnable 2");};
+
+        new Thread(()-> System.out.println("Costam costam")).start();
 
         Runnable runnableLambdaMultiStatements = () -> {
                                         System.out.println("Inside Runnable 3");
